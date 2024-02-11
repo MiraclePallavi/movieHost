@@ -23,7 +23,7 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=${query}`,{
 
 	"method": 'GET',
 	"headers": {
-		'X-RapidAPI-Key': process.env.API_KEY,
+		'X-RapidAPI-Key': 'd55b5364b0mshbd352da800f55f7p104e9fjsn3e47c6ebed8f',
 		'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
 	}
 }
@@ -53,7 +53,7 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=Avengers`,{
 
 	"method": 'GET',
 	"headers": {
-        'X-RapidAPI-Key': process.env.API_KEY,
+        'X-RapidAPI-Key': 'pd55b5364b0mshbd352da800f55f7p104e9fjsn3e47c6ebed8f',
 		'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
 	}
 }

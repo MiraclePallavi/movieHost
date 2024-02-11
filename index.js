@@ -13,7 +13,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000);
 }
 
 form.addEventListener('submit',(e)=>{
@@ -53,7 +53,7 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=Avengers`,{
 
 	"method": 'GET',
 	"headers": {
-        'X-RapidAPI-Key': 'pd55b5364b0mshbd352da800f55f7p104e9fjsn3e47c6ebed8f',
+        'X-RapidAPI-Key': 'd55b5364b0mshbd352da800f55f7p104e9fjsn3e47c6ebed8f',
 		'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
 	}
 }

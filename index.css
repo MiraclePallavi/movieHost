@@ -193,13 +193,14 @@ body{
     align-items: center;
     padding: 20px;
     margin-top: 10vh;
+    margin-left: 3vw;
 }
 .centre{
  margin-left: 30vw;
 }
 .search-movie img{
     width: 20vw;
-    height: 45vh;
+    height: 40vh;
   }
 .search button{
     width:10vw;
@@ -329,6 +330,13 @@ footer .row{
         width: 20vw;
         height: 4vh;
     }
+    .search-movie, .movies{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-movie img, .movies img{
+       width: 80vw;
+    }
 }
 @media only screen and (max-width: 400px){
     .email-signup{
@@ -368,5 +376,12 @@ footer .row{
     }
     .head h1{
         font-size: 15px;
+    }
+    .search-movie img, .movies{
+        width: 100vw;
+     }
+     .search-movie, .movies{
+        display: flex;
+        flex-direction: column;
     }
 }

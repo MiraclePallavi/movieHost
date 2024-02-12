@@ -37,7 +37,7 @@ body{
   height: 80vh;
 
  }
-  
+
 
   
   
@@ -153,7 +153,7 @@ body{
 .reg{
     color: rgb(234, 221, 232);
     display: block;
-    margin-top: 5vh;
+    margin-top: 7vh;
     font-size: 20px;
     width: 20vw;
     font-family: fantasy;
@@ -195,6 +195,11 @@ body{
     height: 40vh;
     padding: 20px;
 }
+.movies img:hover{
+    position: relative;
+    width: 25vw;
+    height: 50vh;
+}
 .email-signup{
     display: flex;
     flex-wrap: wrap;
@@ -214,6 +219,7 @@ body{
 .search-movie img{
     width: 20vw;
     height: 40vh;
+    padding: 20px;
   }
 .search button{
     width:10vw;
@@ -335,6 +341,7 @@ footer .row{
     }
     .reg{
         font-size: 15px;
+        margin-top: 2vh;
     }
     .mySlides img{
         width: 100vw;
@@ -402,6 +409,7 @@ footer .row{
     }
     .search-movie img, .movies img{
         width: 100vw;
+        margin-top: 2vh;
      }
      .search-movie, .movies{
         display: flex;

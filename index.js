@@ -23,7 +23,7 @@ reg.addEventListener('click',(e)=>{
 function Registered(){
     document.querySelector('.reg').innerHTML = 'You are registered !';
 }
-/*
+
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     let query = form.querySelector('.search-input').value;
@@ -31,7 +31,7 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=${query}`,{
 
 	"method": 'GET',
 	"headers": {
-		'X-RapidAPI-Key': 'd55b5364b0mshbd352da800f55f7p104e9fjsn3e47c6ebed8f',
+		'X-RapidAPI-Key': '90be4bbb9dmsh3196833948574b9p1c3b43jsnf52e5f8d44ff',
 		'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
 	}
 }
@@ -61,7 +61,7 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=Avengers`,{
 
 	"method": 'GET',
 	"headers": {
-        'X-RapidAPI-Key': 'd55b5364b0mshbd352da800f55f7p104e9fjsn3e47c6ebed8f',
+        'X-RapidAPI-Key': '90be4bbb9dmsh3196833948574b9p1c3b43jsnf52e5f8d44ff',
 		'X-RapidAPI-Host': 'imdb146.p.rapidapi.com'
 	}
 }
@@ -85,4 +85,3 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=Avengers`,{
 .catch(err=>{
     console.log(err);
 })
-*/

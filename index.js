@@ -1,6 +1,7 @@
 const movieContainr = document.querySelector('.movies')
 const searchContainr = document.querySelector('.search-movie')
 const form = document.querySelector('.search')
+const reg = document.querySelector('.get-started')
 let slideIndex = 0;
 showSlides();
 
@@ -15,7 +16,14 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000);
 }
-
+reg.addEventListener('click',(e)=>{
+    e.preventDefault();
+}
+)
+function Registered(){
+    document.querySelector('.reg').innerHTML = 'You are registered !';
+}
+/*
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     let query = form.querySelector('.search-input').value;
@@ -77,3 +85,4 @@ fetch( `https://imdb146.p.rapidapi.com/v1/find/?query=Avengers`,{
 .catch(err=>{
     console.log(err);
 })
+*/

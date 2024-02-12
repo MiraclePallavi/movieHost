@@ -69,15 +69,18 @@ body{
 }
 
 .right {
-
+    color: white;
     position: absolute;
     right: 3vw;
     display: flex;
+    flex-direction: column;
     z-index: 1;
+    padding-bottom: 6px;
+    margin-right:  4vw;
 }
 #sign:hover{
     cursor: pointer;
-    color: blue;
+    color: rgb(31, 223, 127);
 }
 .email-signup{
     border: 0;
@@ -146,6 +149,16 @@ body{
     font-size: large;
     position: absolute;
     z-index: 1;
+}
+.reg{
+    color: rgb(234, 221, 232);
+    display: block;
+    margin-top: 5vh;
+    font-size: 20px;
+    width: 20vw;
+    font-family: fantasy;
+    text-align: center;
+    
 }
 ::-webkit-input-placeholder{
     color: white;
@@ -300,6 +313,9 @@ footer .row{
     padding: 10px 0;
 }
 @media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .right{
+        padding-bottom: 10px;
+    }
     .email-signup {
         margin-top: 40vh;
         display: flex;
@@ -315,7 +331,10 @@ footer .row{
         width: 12vw;
         height: 5vh;
         position: relative;
-        margin-left: 70vw;
+       left: 22vw;
+    }
+    .reg{
+        font-size: 15px;
     }
     .mySlides img{
         width: 100vw;
@@ -339,6 +358,7 @@ footer .row{
     }
 }
 @media only screen and (max-width: 400px){
+    
     .email-signup{
         margin-top: 40vh;
         display: flex;
@@ -354,7 +374,7 @@ footer .row{
         width: 15vw;
         height: 5vh;
         position: relative;
-        margin-left: vw;
+        left: 18vw;
         text-wrap: wrap;
     }
     .search-input{
@@ -377,11 +397,18 @@ footer .row{
     .head h1{
         font-size: 15px;
     }
-    .search-movie img, .movies{
+    .reg{
+        font-size: 10px;
+    }
+    .search-movie img, .movies img{
         width: 100vw;
      }
      .search-movie, .movies{
         display: flex;
         flex-direction: column;
+    }
+    .logo img{
+        width: 50px;
+        height: 25px;
     }
 }
